@@ -15,9 +15,6 @@ function Box() {
     ])
    const handleCheckboxChange = (e) =>{
     const {id,checked,name} = e.target;
-    console.log(id)
-    console.log(checked)
-    console.log(name)
         const upDateColor = boxColors.map((item)=>{
           return {
             ...item,
